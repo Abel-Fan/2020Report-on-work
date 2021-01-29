@@ -8,10 +8,56 @@
     padding:0;
     list-style: none;
 }
-body,html{
+body,html,.swiper2{
     width:100%;
     height:100%;
     color:#414141;
+    overflow: hidden;
+}
+.loginBox{
+    width:360px;
+    height:44px;
+    background-color:#fff;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    z-index:99;
+    line-height: 44px;
+    font-size:24px;
+    font-family: "hxb";
+    color:#2B6DED;
+    padding:10px;
+    
+}
+.loginBox input{
+    border:0;
+    outline: 0;
+    height:25px;
+    float:right;
+    margin-top:9px;
+    letter-spacing: 10px;
+}
+.loginBox button{
+    width:40px;
+    height:25px;
+    float:right;
+    margin-top:9px;
+    color:#2B6DED;
+    background-color:#fff;
+    font-size:14px;
+    font-family: "hxb";
+    border:0;
+    outline: 0;
+    margin-left:10px;
+    cursor: pointer;
+}
+.loginBox button:hover{
+    color:#fff;
+    background-color:#2B6DED;
+    font-size:20
 }
 .swiper-container{
     width: 100%;
@@ -21,6 +67,13 @@ body,html{
 .slide1{
     background-color:#2B6DED;
     position: relative;
+}
+.blur{
+    filter:blur(20px);
+    -webkit-filter:blur(10px);
+    -moz-filter:blur(10px);
+    -ms-filter:blur(10px);
+    -o-filter:blur(10px);
 }
 .slide1 .right{
     width:800px;
@@ -573,3 +626,116 @@ body,html{
     line-height: 200px;
     letter-spacing:30px;   
 }
+
+/* 李玲娟 */
+
+.bg-linear{
+    background: linear-gradient(#FF6000, #FFD180);
+   }
+   
+   .slide4 .left_2{
+    width:533px;
+    height:425px;
+    position: absolute;
+    top:180px;
+    left:100px;
+    background-image: url("../img/dn2.png");
+    background-repeat: no-repeat;
+    background-size:533px 340px;
+    padding:28px 0 0 27px;
+       
+   }
+   .slide4 .left_2 video{
+       margin-top:25px;
+       margin-left:40px;
+    width: 400px;
+   }
+   
+   
+   .slide2_2 .con li{
+      border:1px solid #FFD180;
+   }
+   
+   .slide2_2 .con li span{
+      border:1px solid #FFD180;
+   }
+   
+   .slide3_2::before{
+       content:"";
+       position:absolute;
+       background-image:url(../img/bg2.gif);
+    background-repeat: no-repeat;
+       width:500px;
+       height:350px;
+       opacity: 0.3;
+   }
+   
+   .slide4_2 .con li span{
+    background-color:#FFD180;
+   }
+   
+   
+   .slide5 .left_2{
+    width:533px;
+    height:525px;
+    position: absolute;
+    top:180px;
+    left:100px;
+    background-image: url("../img/phone.png");
+    background-repeat: no-repeat;
+    background-size:533px 472px;
+    padding:28px 0 0 27px;
+       
+   }
+   .slide5 .left_2 video{
+       margin-top:5px;
+       margin-left:124px;
+    width: 228px;
+   }
+   
+   
+   .slide5_2 .con li{
+     border:2px solid #FFD180;
+   }
+   
+   .slide5_2 .con li::before{
+    background-color:#FFD180;
+   }
+   .slide7_2 .sjx{
+     border-bottom:600px solid #FFD180;
+   }
+   
+   .slide7_2 .con1{
+    border:2px solid #FFD180;
+   }
+   
+   .slide7_2 .con1 .title p{
+    color:#FF6000;
+   }
+   .slide9_2 .con1{
+    border-left:2px solid #FFD180; 
+   }
+   
+   .slide9_2 .con1 li::before{
+     background-color:#FFD180;
+   }
+   
+   .slide9_2 .con1 li h2{
+     color:#FF6000;
+   }
+   
+   .slide10_2 .con1{
+    border-left:2px solid #FFD180; 
+   }
+   
+   .slide10_2 .con1 li::before{
+     background-color:#FFD180;
+   }
+   
+   .slide10_2 .con1 li h2{
+     color:#FF6000;
+   }
+   
+   .slide10_2 .con1 .con2{
+    border-left:2px solid #FFD180;
+   }
