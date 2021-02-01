@@ -452,14 +452,14 @@ body,html,.swiper2{
     display: block;
     width:300px;
     position:absolute;
-    top:400px;
+    top:500px;
     right:1100px;
 }
 .slide8 img{
     display: block;
     width:300px;
     position:absolute;
-    top:400px;
+    top:500px;
     right:200px;
 }
 .slide9 .con1{
@@ -711,7 +711,8 @@ background-color:#FFD180;
 }
 
 .slide7_2 .con1{
-border:2px solid #FFD180;
+    border:2px solid #FFD180;
+    padding:15px;
 }
 
 .slide7_2 .con1 .title p{
